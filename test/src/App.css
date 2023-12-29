@@ -5,10 +5,19 @@ body {
   max-width: 42rem;
 }
 
-h1 {
+.name1 {
   color: #eb6f93;
   font-family: vcr osd mono;
 text-align: center;
-margin-top: 20%;
+margin-top: 26%;
+margin-right: 8%;
 font-size: xx-large;
+}
+
+.name2 {
+  color: #eb6f93;
+  font-family: vcr osd mono;
+text-align: center;
+font-size: x-large;
+margin-right: 8%;
 }
