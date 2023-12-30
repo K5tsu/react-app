@@ -12,12 +12,47 @@ text-align: center;
 margin-top: 26%;
 margin-right: 8%;
 font-size: xx-large;
+transition: 1s;
+}
+
+.name1:hover {
+  color: #b388eb;
+  transition: 1s;
 }
 
 .name2 {
-  color: #eb6f93;
-  font-family: vcr osd mono;
+  color: #b388eb;
+  font-family: Dotgothic16;
 text-align: center;
 font-size: x-large;
-margin-right: 8%;
+margin-right: 14%;
+}
+
+@keyframes color {
+    0% {
+        color: #eb6f92
+    }
+
+    30% {
+        color: #eb6f92
+    }
+
+    60% {
+        color: #ebbcba
+    }
+
+    90% {
+        color: #31748f
+    }
+
+    100% {
+        color: #9ccfd8
+    }
+}
+
+.name1 {
+    -webkit-animation: color 20s infinite;
+    animation: color 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
 }
